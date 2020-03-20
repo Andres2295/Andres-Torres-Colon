@@ -24,15 +24,15 @@
       </ol>
     </li>
     <li>
-      <h2> Spring Certifications </h2>
+      <h2> .NET Certifications </h2>
       <ol>
-        <li><h3><a href="#"> Spring and Hibernate for Beginners includes (Spring Boot) </a></h3></li>
+        <li><h3><a href="#"> SThe Complete ASP.NET MVC 5 Course </a></h3></li>
       </ol>
     </li>
     <li>
       <h2> Spring Certifications </h2>
       <ol>
-        <li><h3><a href="#"> Spring and Hibernate for Beginners includes (Spring Boot) </a></h3></li>
+        <li><h3><a href="#"> Spring and Hibernate for Beginners (Includes Spring Boot) </a></h3></li>
       </ol>
     </li>
   </ul>
