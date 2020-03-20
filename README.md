@@ -1,6 +1,4 @@
-(setq markdown-css-paths '("styles/style1.css"))
-
-<div style="background:red;">
+<div>
   <h1> Certifications </h1>
 
   <p> In this repository will be available different certifications in software development and other achievements. </p>
