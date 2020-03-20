@@ -6,7 +6,7 @@
   <li>
     <h2> Phyton Certifications </h2>
     <ol>
-      <li> Introduction to Python Programming </h3></li>
+      <li><h3> Introduction to Python Programming </h3></li>
     </ol>
   </li>
   
