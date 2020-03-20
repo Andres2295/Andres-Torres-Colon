@@ -8,19 +8,19 @@
     <li>
       <h2> Phyton Certifications </h2>
       <ol>
-        <li><h3> Introduction to Python Programming </h3></li>
+        <li><h3><a href=""> Introduction to Python Programming </a></h3></li>
       </ol>
     </li>
     <li>
       <h2> Webpage Development Certifications </h2>
       <ol>
-        <li><h3> React JS </h3></li>
+        <li><h3><a> React </a></h3></li>
       </ol>
     </li>
     <li>
       <h2> R Certifications </h2>
       <ol>
-        <li><h3> Create Interactive Web Applications with the R Shiny Package </h3></li>
+        <li><h3><a href="Udemy Certifications/Create Interactive Web Applications with the R Shiny Package - Certification.pdf"> Create Interactive Web Applications with the R Shiny Package </a></h3></li>
       </ol>
     </li>
   </ul>
