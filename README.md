@@ -8,13 +8,13 @@
     <li>
       <h2> Phyton Certifications </h2>
       <ol>
-        <li><h3><a href=""> Introduction to Python Programming </a></h3></li>
+        <li><h3><a href="Udemy Certifications/Introduction to Python Programming.pdf"> Introduction to Python Programming </a></h3></li>
       </ol>
     </li>
     <li>
       <h2> Webpage Development Certifications </h2>
       <ol>
-        <li><h3><a> React </a></h3></li>
+        <li><h3><a href="Udemy Certifications/React - The Complete Guide (incl Hooks, React Router, Redux).pdf"> React </a></h3></li>
       </ol>
     </li>
     <li>
