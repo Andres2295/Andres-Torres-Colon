@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="styles/style1.css" />
+(setq markdown-css-paths '("styles/style1.css"))
 
 <div style="background:red;">
   <h1> Certifications </h1>
