@@ -14,7 +14,7 @@
     <li>
       <h2> Webpage Development Certifications </h2>
       <ol>
-        <li><h3><a href="Udemy Certifications/React - The Complete Guide (incl Hooks, React Router, Redux).pdf"> React </a></h3></li>
+        <li><h3><a href="Udemy Certifications/React - The Complete Guide (incl Hooks, React Router, Redux).pdf"> React - The Complete Guide (incl Hooks, React Router, Redux) </a></h3></li>
       </ol>
     </li>
     <li>
