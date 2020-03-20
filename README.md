@@ -1,6 +1,6 @@
-<link rel="stylesheet" type="text/css" media="all" href="styles/style1.css" />
+<link rel="stylesheet" type="text/css" href="styles/style1.css" />
 
-<div>
+<div style="background:red;">
   <h1> Certifications </h1>
 
   <p> In this repository will be available different certifications in software development and other achievements. </p>
