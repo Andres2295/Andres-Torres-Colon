@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" media="all" href="" />
+<link rel="stylesheet" type="text/css" media="all" href="styles/style1.css" />
 
 <div>
   <h1> Certifications </h1>
