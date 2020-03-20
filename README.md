@@ -11,7 +11,6 @@
         <li><h3> Introduction to Python Programming </h3></li>
       </ol>
     </li>
-    
     <li>
       <h2> Webpage Development Certifications </h2>
       <ol>
