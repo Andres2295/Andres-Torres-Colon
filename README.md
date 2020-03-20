@@ -1,8 +1,4 @@
-<style>
-  div {
-    background: yelow;
-  }
-</style>
+<link rel="stylesheet" type="text/css" media="all" href="" />
 
 <div>
   <h1> Certifications </h1>
