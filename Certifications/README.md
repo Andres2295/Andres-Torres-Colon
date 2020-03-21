@@ -11,9 +11,9 @@
       </ol>
     </li>
     <li>
-      <h2> Webpage Development Certifications </h2>
+      <h2> Web Page Development Certifications </h2>
       <ol>
-        <li><h3><a href="Certifications/Udemy Certifications/React - The Complete Guide (incl Hooks, React Router, Redux).pdf"> React - The Complete Guide (incl Hooks, React Router, Redux) </a></h3></li>
+        <li><h3><a href="https://github.com/Andres2295/Andres-Torres-Colon/blob/master/Certifications/Udemy%20Certifications/React%20-%20The%20Complete%20Guide%20(incl%20Hooks%2C%20React%20Router%2C%20Redux).pdf"> React - The Complete Guide (incl Hooks, React Router, Redux) </a></h3></li>
       </ol>
     </li>
     <li>
