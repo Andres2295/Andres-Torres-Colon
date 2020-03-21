@@ -7,7 +7,7 @@
     <li>
       <h2> Phyton Certifications </h2>
       <ol>
-        <li><h3><a href="Certifications/Udemy Certifications/Introduction to Python Programming.pdf"> Introduction to Python Programming </a></h3></li>
+        <li><h3><a href="https://github.com/Andres2295/Andres-Torres-Colon/blob/master/Certifications/Udemy%20Certifications/Introduction%20to%20Python%20Programming.pdf"> Introduction to Python Programming </a></h3></li>
       </ol>
     </li>
     <li>
@@ -19,7 +19,7 @@
     <li>
       <h2> R Certifications </h2>
       <ol>
-        <li><h3><a href="Certifications/Udemy Certifications/Create Interactive Web Applications with the R Shiny Package - Certification.pdf"> Create Interactive Web Applications with the R Shiny Package </a></h3></li>
+        <li><h3><a href="https://github.com/Andres2295/Andres-Torres-Colon/blob/master/Certifications/Udemy%20Certifications/Create%20Interactive%20Web%20Applications%20with%20the%20R%20Shiny%20Package%20-%20Certification.pdf"> Create Interactive Web Applications with the R Shiny Package </a></h3></li>
       </ol>
     </li>
     <li>
