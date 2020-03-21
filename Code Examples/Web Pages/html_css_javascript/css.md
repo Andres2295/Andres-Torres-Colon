@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+[back](./)
+
 # CSS
 ## What is CSS?
 CSS stands for Cascading Stylesheets. 
@@ -38,3 +44,5 @@ CSS can be written in any text editor such as Notes, Notepad, Sublime Text, VS C
 
 * Example
 ![Example](https://github.com/Andres2295/Andres-Torres-Colon/blob/master/Code%20Examples/html_css_js/images/save_example.png)
+
+[back](./)
