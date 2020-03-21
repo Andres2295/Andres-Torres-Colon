@@ -6,7 +6,7 @@ layout: default
 In this repository will be available different certifications in software development and other achievements.
 
 ## Phyton Certifications
-### i. Introduction to Python Programming
+   - ### i. Introduction to Python Programming
 
 ## Web Page Development Certifications </h2>
 ### i. React - The Complete Guide (incl Hooks, React Router, Redux)
