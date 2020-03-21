@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[back](./)
+[back](./codes_page)
 
 # HTML
 
