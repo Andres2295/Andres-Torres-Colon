@@ -20,14 +20,15 @@
 ```
 > Tags used in Example explained:
 ```html
-<!DOCTYPE html> declaration defines this document to be HTML5
-<html> element is the root element of an HTML page
-<head> element contains meta information about the document
-<title> element specifies a title for the document
-<body> element contains the visible page content
-<h1> element defines a large heading
-<p> element defines a paragraph
+<!DOCTYPE html> defines this document is HTML5
+<html> is the root element of an HTML page
+<head> contains meta information about the document
+<title> specifies a title for the document
+<body> contains the visible page content
+<h1> defines a large heading
+<p> defines a paragraph
 ```
+* Note that every opening tag has a closing tag </> at its end.
 
 
 <h1>CSS<h1>
