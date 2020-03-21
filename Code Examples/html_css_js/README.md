@@ -28,7 +28,7 @@
 <h1> defines a large heading
 <p> defines a paragraph
 ```
-> Also note that every opening <tag> has its own closing tag </> at its end.
+> Also note that every opening element or tag has its own closing element </> at it's end.
 
 
 <h1>CSS<h1>
