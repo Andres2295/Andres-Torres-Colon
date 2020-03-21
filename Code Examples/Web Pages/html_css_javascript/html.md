@@ -27,16 +27,13 @@ HTML stands for Hyper Text Markup Language, it describes the structure of a Web 
 ```
 
 * Tags used in Example explained:
-
-```html
-<!DOCTYPE html> defines this document is HTML5
-<html> is the root element of an HTML page
-<head> contains meta information about the document
-<title> specifies a title for the document
-<body> contains the visible page content
-<h1> defines a large heading
-<p> defines a paragraph
-```
+`<!DOCTYPE html>` defines this document is HTML5
+`<html>` is the root element of an HTML page
+`<head>` contains meta information about the document
+`<title>` specifies a title for the document
+`<body>` contains the visible page content
+`<h1>` defines a large heading
+`<p>` defines a paragraph
 > Also note that every opening element or `<tag>` has its own closing element `</tag>` at it's end.
 
 HTML can be written in any text editor such as Notes, Notepad, Sublime Text, VS Code, ect. And it also must be saved with the file extension of `.html`
