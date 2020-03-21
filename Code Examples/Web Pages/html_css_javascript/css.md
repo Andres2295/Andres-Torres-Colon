@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[back](./)
+[back](./codes_page.html)
 
 # CSS
 ## What is CSS?
@@ -28,6 +28,7 @@ p {
 
 * Tags used in Example explained:
   * CSS can be selected 
+  
 ```css
 
 <html> is the root element of an HTML page
@@ -45,4 +46,4 @@ CSS can be written in any text editor such as Notes, Notepad, Sublime Text, VS C
 * Example
 ![Example](https://github.com/Andres2295/Andres-Torres-Colon/blob/master/Code%20Examples/html_css_js/images/save_example.png)
 
-[back](./)
+[back](./codes_page.html)
