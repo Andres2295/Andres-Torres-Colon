@@ -18,7 +18,7 @@
     </body>
 </html>
 ```
-> Tags used in Example explained:
+* Tags used in Example explained:
 ```html
 <!DOCTYPE html> defines this document is HTML5
 <html> is the root element of an HTML page
@@ -28,7 +28,7 @@
 <h1> defines a large heading
 <p> defines a paragraph
 ```
-* Also note that every opening tag has its own closing tag </> at its end.
+> Also note that every opening < tag > has its own closing tag </> at its end.
 
 
 <h1>CSS<h1>
