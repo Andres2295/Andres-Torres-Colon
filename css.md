@@ -28,13 +28,12 @@ p {
 }
 ```
 
-> In the example above the `body`, `h1` and `p` sections are called **selectors** and inside the **curly braces** `{}` must lie the **declaration** of the style properties to be applied to these **selectors**
+> In the example above the `body`, `h1` and `p` sections are called **selectors** and inside the **curly braces** `{}` must lie the **declaration** of the style properties for these **selectors**.
 
 * Tags used in Example explained:
   * CSS can be selected 
   
 ```css
-
 <html> is the root element of an HTML page
 <head> contains meta information about the document
 <title> specifies a title for the document
