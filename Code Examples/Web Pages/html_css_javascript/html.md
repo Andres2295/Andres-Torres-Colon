@@ -38,6 +38,6 @@ HTML stands for Hyper Text Markup Language, it describes the structure of a Web 
 
 HTML can be written in any text editor such as Notes, Notepad, Sublime Text, VS Code, ect. And it also must be saved with the file extension of `.html`
 * Example
-![Example](https://github.com/Andres2295/Andres-Torres-Colon/blob/master/Code%20Examples/html_css_js/images/save_example.png)
+![Example](https://github.com/Andres2295/Andres-Torres-Colon/blob/master/Code%20Examples/Web%20Pages/html_css_javascript/images/save_example.png)
 
 [back](./)
