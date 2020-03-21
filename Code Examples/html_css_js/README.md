@@ -19,13 +19,16 @@
 </html>
 ```
 > Tags used in Example explained:
-1. <!DOCTYPE html> declaration defines this document to be HTML5
-2. <html> element is the root element of an HTML page
-3. <head> element contains meta information about the document
-4. <title> element specifies a title for the document
-5. <body> element contains the visible page content
-6. <h1> element defines a large heading
-7. <p> element defines a paragraph
+```html
+<!DOCTYPE html> declaration defines this document to be HTML5
+<html> element is the root element of an HTML page
+<head> element contains meta information about the document
+<title> element specifies a title for the document
+<body> element contains the visible page content
+<h1> element defines a large heading
+<p> element defines a paragraph
+```
+
 
 <h1>CSS<h1>
 
