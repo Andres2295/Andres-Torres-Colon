@@ -4,7 +4,7 @@
 <p>HTML stands for Hyper Text Markup Language, it describes the structure of a Web page and consists of a series of elements. These elements tell the browser how to display the content. HTML elements are represented by tags that are label pieces of content such as "heading", "paragraph", "table", and so on. Notice that browsers do not display the HTML tags, but use them to render the content of the page</p>
 <h2>Basic HTML Structure</h2>
 
-> Example
+* Example
 
 ```html
 <!DOCTYPE html>
@@ -28,7 +28,7 @@
 <h1> defines a large heading
 <p> defines a paragraph
 ```
-* Note that every opening tag has a closing tag </> at its end.
+* Also note that every opening tag has its own closing tag </> at its end.
 
 
 <h1>CSS<h1>
