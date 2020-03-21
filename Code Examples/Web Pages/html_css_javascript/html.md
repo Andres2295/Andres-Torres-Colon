@@ -27,6 +27,7 @@ HTML stands for Hyper Text Markup Language, it describes the structure of a Web 
 ```
 
 * Tags used in Example explained:
+
 `<!DOCTYPE html>` defines this document is HTML5
 `<html>` is the root element of an HTML page
 `<head>` contains meta information about the document
