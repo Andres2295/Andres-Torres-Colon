@@ -1,5 +1,5 @@
 <div>
-  <h1>Welcome the Code Exaple and How-To's repository</h1>
+  <h1>Welcome the Code Example and How-To's repository</h1>
   <p>You will find in this repository code examples for:</p>
   <ul>
     <li><a>C#</a></li>
