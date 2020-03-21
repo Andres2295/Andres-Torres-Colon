@@ -13,7 +13,7 @@
         <title>Page Title</title>
     </head>
     <body>
-        <h1>My First Heading</h1>
+        <h1>Hello HTML!</h1>
         <p>My first paragraph.</p>
     </body>
 </html>
@@ -28,7 +28,11 @@
 <h1> defines a large heading
 <p> defines a paragraph
 ```
-> Also note that every opening element or tag has its own closing element </> at it's end.
+> Also note that every opening element or `<tag>` has its own closing element `</tag>` at it's end.
+
+HTML can be written in any text editor such as Notes, Notepad, Sublime Text, VS Code, ect. And it also must be saved with the file extension of `.html`
+* Example
+![Example](/images/save_example.png)
 
 
 <h1>CSS<h1>
