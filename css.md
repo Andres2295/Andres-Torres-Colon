@@ -6,25 +6,29 @@ layout: default
 
 # CSS
 ## What is CSS?
-CSS stands for Cascading Stylesheets. 
+**CSS** stands for **C**ascading **S**tyle **S**heets. It also describes the style of an **HTML** document.
 
 ## Basic CSS Structure
 
-* Example
+* Syntax Example
 
 ```css
 body {
-
+  background-color: lightblue;
 }
 
 h1 {
-
+  color: white;
+  text-align: center;
 }
 
 p {
-
+  font-family: verdana;
+  font-size: 20px;
 }
 ```
+
+> In the example above the `body`, `h1` and `p` sections are called **selectors** and inside the **curly braces** `{}` must lie the **declaration** of the style properties to be applied to these **selectors**
 
 * Tags used in Example explained:
   * CSS can be selected 
