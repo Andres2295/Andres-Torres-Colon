@@ -10,8 +10,7 @@ layout: default
 
 ## Basic CSS Structure
 
-* Syntax Example
-
+> Syntax Example
 ```css
 body {
   background-color: lightblue;
@@ -46,8 +45,7 @@ Selectors can be devided into five categories:
 
 ### Simple selectors
   - #### Element selectors
-
-The element selector selects HTML elements by the element `tag` name
+    The element selector selects HTML elements by the element `tag` name
 > Example
 ```css
 p {
