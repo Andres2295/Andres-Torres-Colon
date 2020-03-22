@@ -1,0 +1,23 @@
+﻿//PROGRAM TITLE: Dev Boards Serial Communication HELLO WORLD
+//PURPOSE: TEST UART2 with development Board
+//AUTHOR: ANDRES TORRES COLON
+//DATE: JUNE 1 2018
+
+//INCLUDE ADDITIONAL REFERENCES
+
+//GLOBAL VARIABLES
+ 
+void setup(void)
+{
+   //INITIALIZE IO PINS	
+   uartSetup(U2,9600); //NOTE: DEV BOARD IS 9600 BAUD RATE
+   uartWriteString(U2,"HELLO WORLD FROM OctoLabDEV BOARD");
+}
+
+void loop(void)
+{
+   //PROGRAM LOGISTICS	
+   
+}
+
+//ADDITIONAL CUSTOM FUNCTIONS AND METHODS

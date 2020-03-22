@@ -1,0 +1,27 @@
+﻿//PROGRAM TITLE: Analog POTENTIOMETRE ON DEVELOPMENT BOARD
+//PURPOSE: QX7 IDPE 2019 MICROSTICK II PLUS DEVELOPMENT BOARD
+//AUTHOR: ANDRES TORRES COLON
+//DATE: MARCH 22, 2019
+
+ 
+void setup(void)
+{
+   //INITIALIZE IO PINS	
+   
+   //Analog Sensor Setup
+   analogSetup(2);
+   analogRead(2); //Capture initial setting
+   //UART Communication
+   uartSetup(U2,9600);
+   uartWriteString(U2, "Potenciometre on DevBoard with QX7 IDE 2019");
+   uartWriteLine(U2, "Analog Initial Value: ");
+   uartWriteInteger(U2, analogRead(2));
+     
+}
+
+void loop(void)
+{
+   //PROGRAM LOGISTICS
+   uartWriteInteger(U2, analogRead(2));
+   uartWriteLine(U2,"");
+}

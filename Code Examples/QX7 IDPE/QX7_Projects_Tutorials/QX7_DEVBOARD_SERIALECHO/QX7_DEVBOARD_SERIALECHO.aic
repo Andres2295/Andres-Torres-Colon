@@ -1,0 +1,25 @@
+﻿//PROGRAM TITLE: Serial Communications Tx & Rx
+//PURPOSE: Development Board return the received info byte
+//AUTHOR: ANDRES TORRES COLON
+//DATE: JUNE 1, 2020
+
+
+//GLOBAL VARIABLES
+ char receivedByte;
+ 
+void setup(void)
+{
+   //INITIALIZE IO PINS	
+   uartSetup(U2,9600);
+   uartWriteLine(U2,"Rx - Tx : ECHO THE RECEIVED BYTE");
+   
+}
+
+void loop(void)
+{
+   //PROGRAM LOGISTICS	
+     
+   //capturo info byte : ESTO SIEMPRE FUNCIONA
+   	receivedByte = uartRead(U2);
+   	uartWrite(U2, receivedByte);
+}

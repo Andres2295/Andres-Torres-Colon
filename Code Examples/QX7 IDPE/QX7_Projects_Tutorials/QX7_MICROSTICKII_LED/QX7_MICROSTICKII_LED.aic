@@ -1,0 +1,21 @@
+﻿//PROGRAM TITLE: RED LED ON MICROSTICK II  
+//PURPOSE: ACTIVATE AND CONTROL LED AS DIGITAL OUTPUT
+//AUTHOR: ANDRES TORRES COLON
+//DATE: MARCH 22, 2018
+
+ 
+void setup(void)
+{
+   //INITIALIZE IO PINS	
+   digitalSetup(2, OUTPUT);
+   
+}
+
+void loop(void)
+{
+   //PROGRAM LOGISTICS	
+   digitalWrite(2, LOW);
+   delay(1000);
+   digitalWrite(2, HIGH);
+   delay(1000);
+}

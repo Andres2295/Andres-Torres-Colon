@@ -1,0 +1,24 @@
+﻿//PROGRAM TITLE: RC Servo Test
+//PURPOSE:Control an RC Standard servo connected to PIN#10
+//AUTHOR: ANDRES TORRES COLON
+//DATE: JULY 26, 2018
+
+void setup()
+{
+   //INITIALIZE IO PINS	
+   rcTimerSetup(50);
+   rcservoSetup(10,1500);
+  
+}
+
+void loop()
+{
+   //PROGRAM LOGISTICS	
+   rcservoWrite(10, 1500);
+   delay(2000);
+   rcservoWrite(10, 700);
+   delay(2000);
+   rcservoWrite(10, 2100);
+   delay(2000);
+
+}

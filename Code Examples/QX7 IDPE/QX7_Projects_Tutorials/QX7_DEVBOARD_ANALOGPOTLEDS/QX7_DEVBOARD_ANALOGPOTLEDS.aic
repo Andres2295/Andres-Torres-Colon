@@ -1,0 +1,68 @@
+﻿//PROGRAM TITLE: Analog POTENTIOMETRE ON DEVELOPMENT BOARD
+//PURPOSE: READ ANALOG DATA AND USE IT TO SET CONDITIONS TO CONTROL ONBOARD LEDS
+//AUTHOR: Josè M de Abónguez
+//DATE: May 22, 2018
+
+ 
+void setup()
+{
+   //INITIALIZE IO PINS	
+   
+   //Notofication LED BLUE LED
+   digitalSetup(26,OUTPUT);
+   digitalWrite(26,HIGH);
+   digitalSetup(25,OUTPUT);
+   digitalWrite(25,HIGH);
+   digitalSetup(24,OUTPUT);
+   digitalWrite(24,HIGH);
+   
+   //Analog Sensor Setup
+   analogSetup(2);
+   analogRead(2); //Capture initial setting
+   //UART Communication
+   uartSetup(U2,9600);
+   uartWriteString(U2, "Potenciometro en DevBoard con QX7 IDE v8");
+   uartWriteLine(U2, "Analog Initial Value: ");
+   uartWriteInteger(U2, analogRead(2));
+   
+   delay(2000);
+   digitalWrite(26, LOW);
+   digitalWrite(25, LOW);
+   digitalWrite(24, LOW);
+     
+}
+
+void loop()
+{
+   //PROGRAM LOGISTICS
+   uartWriteInteger(U2, analogRead(2));
+   uartWriteLine(U2,"");
+   
+   if(analogRead(2) < 100)
+   {
+   	 	digitalWrite(26, LOW);
+   		digitalWrite(25, LOW);
+   		digitalWrite(24, LOW);
+   }
+   
+   if((analogRead(2) > 100) && (analogRead(2) < 200))
+   {
+   	 	digitalWrite(26, HIGH);
+   		digitalWrite(25, LOW);
+   		digitalWrite(24, LOW);
+   }
+   
+   if((analogRead(2) > 200) && (analogRead(2) < 400))
+   {
+   	 	digitalWrite(26, HIGH);
+   		digitalWrite(25, HIGH);
+   		digitalWrite(24, LOW);
+   }
+   
+   if(analogRead(2) > 400)
+   {
+   	 	digitalWrite(26, HIGH);
+   		digitalWrite(25, HIGH);
+   		digitalWrite(24, HIGH);
+   }
+}

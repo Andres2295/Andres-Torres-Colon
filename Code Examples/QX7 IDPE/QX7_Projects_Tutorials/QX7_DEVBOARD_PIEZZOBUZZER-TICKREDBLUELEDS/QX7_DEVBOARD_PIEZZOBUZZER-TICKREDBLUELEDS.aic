@@ -1,0 +1,24 @@
+﻿//PROGRAM TITLE: Piezzo Buzzer Ticking once per second
+//PURPOSE: Piezzo Buzzer Tick w Red and Blue LEDs indicators using digitalToggle OUTPUT
+//AUTHOR: ANDRES TORRES COLON
+//DATE: JUNE 24, 2018
+
+void setup()
+{
+   //INITIALIZE IO PINS	
+   digitalSetup(14, OUTPUT); //Piezo Buzzer
+   digitalSetup(26, OUTPUT); //Blue LED
+   digitalSetup(24, OUTPUT); //Red LED
+   digitalWrite(14, LOW); //Start OFF
+   digitalWrite(26, LOW); //Start OFF
+   digitalWrite(24, HIGH); //Start ON
+}
+
+void loop()
+{
+   //PROGRAM LOGISTICS	
+   delay(1000);
+   digitalToggle(26); //BLUE LED
+   digitalToggle(24); //RED LED
+   digitalToggle(14); //BUZZER TICK
+}

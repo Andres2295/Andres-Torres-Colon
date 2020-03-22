@@ -1,0 +1,36 @@
+﻿//PROGRAM TITLE: Development Board Encoder on Pin 16 only
+//PURPOSE: Use of digital ecoders and interrupts
+//AUTHOR: ANDRES TORRES COLON
+//DATE: AUGUST 18, 2018
+
+//Functions Prototype
+void EncoderPin16();
+
+//GLOBAL VARIABLES
+int Interrupt16 = 0;
+
+void setup()
+{
+	uartSetup(U2, 9600);
+   //INITIALIZE IO PINS	
+   //Calls EncoderPin16() function on every FALLING EDGE
+   interruptSetup(16, EncoderPin16, FALLING); //Calls EncoderPin16()
+	
+	
+}
+
+void loop()
+{
+   //PROGRAM LOGISTICS	
+}
+
+//ADDITIONAL CUSTOM FUNCTIONS AND METHODS
+void EncoderPin16()
+{
+	Interrupt16++; //increment the variable on every change detected
+	uartWriteLine(U2,"Interrupt16: ");
+	uartWriteInteger(U2,Interrupt16); //send the value out the serial port
+	uartWriteString(U2,"digitalRead(16): ");
+	uartWriteInteger(U2, digitalRead(16)); //send the pin state out the serial port
+	uartWriteLine(U2,"");
+}

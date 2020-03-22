@@ -1,0 +1,39 @@
+﻿//PROGRAM TITLE: LEDS SEQUENCE MICROSTICK II PLUS DEVELOPMENT BOARD
+//PURPOSE: SET A BEHAVIOUR SEQUENCE FOR LEDS BLUE-BLUE-RED ON THE THE DEVELOPMENT BOARD
+//AUTHOR: ANDRES TORRES COLON
+//DATE: AUGUST 18, 2018
+
+void setup()
+{
+   //INITIALIZE IO PINS	
+   
+   digitalSetup(26,OUTPUT); //BLUE
+   digitalSetup(25,OUTPUT); //BLUE
+   digitalSetup(24,OUTPUT); //RED
+   
+   //all on
+   digitalWrite(26,HIGH);
+   digitalWrite(25,HIGH);
+   digitalWrite(24,HIGH);
+   
+   delay(2000); //wait 2 seconds before looping
+}
+
+void loop()
+{
+   //PROGRAM LOGISTICS
+   
+   //leds linear sequence
+   digitalWrite(26,HIGH);
+   digitalWrite(25,LOW);
+   digitalWrite(24,LOW);
+   delay(1000); //One second delay
+   digitalWrite(26,LOW);
+   digitalWrite(25,HIGH);
+   digitalWrite(24,LOW);
+   delay(1000); //One second delay
+   digitalWrite(26,LOW);
+   digitalWrite(25,LOW);
+   digitalWrite(24,HIGH);
+   delay(1000); //One second delay
+}

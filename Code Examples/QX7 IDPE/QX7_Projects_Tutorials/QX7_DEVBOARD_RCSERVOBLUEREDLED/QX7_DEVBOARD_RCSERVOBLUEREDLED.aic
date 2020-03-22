@@ -1,0 +1,33 @@
+﻿//PROGRAM TITLE: RC Servo Test
+//PURPOSE:Control an RC Standard servo connected to PIN#10 and Visual Indicator
+//AUTHOR: ANDRES TORRES COLON
+//DATE: JULY 26 2018
+
+void setup()
+{
+   //INITIALIZE IO PINS	
+   rcTimerSetup(50); //NOTE: rcTimer uses Timer2
+   rcservoSetup(10,1500); //RC Servos function use is tied to Timer2
+   digitalSetup(26, OUTPUT); //Visual Indicator of process status
+   digitalWrite(26, HIGH);
+   digitalSetup(24, OUTPUT); //Visual Indicator of process status
+   digitalWrite(24, HIGH);
+}
+
+void loop()
+{
+   //PROGRAM LOGISTICS	
+   rcservoWrite(10, 1500);
+   digitalWrite(26, HIGH);
+   digitalWrite(24, HIGH);
+   delay(2000);
+   rcservoWrite(10, 700);
+   digitalWrite(26, HIGH);
+   digitalWrite(24, LOW);
+   delay(2000);
+   rcservoWrite(10, 2100);
+   digitalWrite(26, LOW);
+   digitalWrite(24, HIGH);
+   delay(2000);
+
+}

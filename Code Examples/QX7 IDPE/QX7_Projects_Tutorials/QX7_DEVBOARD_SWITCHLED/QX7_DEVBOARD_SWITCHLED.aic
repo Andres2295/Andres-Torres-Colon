@@ -1,0 +1,22 @@
+﻿//PROGRAM TITLE: SWITCH TO CONTROL LED
+//PURPOSE: TEST DEVELOPMENT BOARD INTEGRATED SWITCH TO CONTROL A led
+//AUTHOR: ANDRES TORRES COLON
+//DATE: MARCH 22, 2020
+
+ 
+void setup(void)
+{
+   //INITIALIZE IO PINS	
+   digitalSetup(26,OUTPUT); //Blue LED
+   digitalSetup(9,INPUT); //Push Button on Dev Board
+}
+
+void loop(void)
+{
+   //PROGRAM LOGISTICS	
+   
+   //NOTE: Since Internal Pullups are active , when the switch is release
+   // the LED is on and viceversa.
+   digitalWrite(26,digitalRead(9)); //Equal the LED status to button state   
+   
+}

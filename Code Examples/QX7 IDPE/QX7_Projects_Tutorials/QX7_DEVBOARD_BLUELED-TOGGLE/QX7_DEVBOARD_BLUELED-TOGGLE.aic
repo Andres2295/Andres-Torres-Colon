@@ -1,0 +1,20 @@
+﻿//PROGRAM TITLE: MICROSTICK II DEVELOPMENT BOARD BLUE LED
+//PURPOSE: ACTIVATE AND CONTROL ONE OF THE BLUE LEDS BY TOGGLING
+//AUTHOR: ANDRES TORRES COLON
+//DATE: MARCH 22, 2018
+
+void setup(void)
+{
+   //INITIALIZE IO PINS	
+   digitalSetup(26, OUTPUT);
+   digitalWrite(26, HIGH);
+   
+}
+
+void loop(void)
+{
+   //PROGRAM LOGISTICS	
+   digitalToggle(26);
+   delay(500);
+   
+}

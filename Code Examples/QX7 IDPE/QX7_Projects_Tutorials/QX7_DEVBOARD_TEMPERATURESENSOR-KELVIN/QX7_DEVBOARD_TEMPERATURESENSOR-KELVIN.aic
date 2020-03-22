@@ -1,0 +1,32 @@
+﻿//PROGRAM TITLE: Dev Board Analog Temperature Sensor
+//PURPOSE: READ RAW DATA FROM THE ONBOARD TEMPERATURE SENSOR AND SEND IT OUT THE SERIAL PORT
+//AUTHOR: ANDRES TORRES COLON
+//DATE: SEPTEMBER 7, 2018
+
+int ADCresult;
+float mVolts, TemperatureC, TemperatureK;
+char *stringCelsius = "  : Temperature in Celsius";
+char *stringKelvin = "  : Temperature in Kelvin";
+
+void setup()
+{
+   //INITIALIZE IO PINS	
+   analogSetup(3);
+   uartSetup(U2,9600);
+}
+
+void loop()
+{
+   //PROGRAM LOGISTICS	
+   uartWriteInteger(U2, analogRead(3));
+   uartWriteLine(U2," : ADC Reading");
+   ADCresult = analogRead(3);
+   mVolts = ADCresult * (3300.0 / 1024.0); // Convert to milli volts. 10 bits resolution for 3.3 VDC
+   TemperatureC = (mVolts - 500.0) / 10.0; // Calculate temperature based on TC1047 spec
+   uartWriteDecimal(U2, TemperatureC);
+   uartWriteLine(U2, stringCelsius);
+   TemperatureK = TemperatureC + 273.15;
+   uartWriteDecimal(U2, TemperatureK);
+   uartWriteLine(U2, stringKelvin);
+ 
+}

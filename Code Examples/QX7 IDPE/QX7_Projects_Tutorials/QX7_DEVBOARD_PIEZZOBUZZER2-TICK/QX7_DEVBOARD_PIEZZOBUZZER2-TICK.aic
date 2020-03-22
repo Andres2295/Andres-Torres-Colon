@@ -1,0 +1,19 @@
+﻿//PROGRAM TITLE: Piezzo Buzzer Ticking once per second
+//PURPOSE: Test the ticking sound of the Piezzo Buzzer using digitalToggle OUTPUT
+//AUTHOR: ANDRES TORRES COLON
+//DATE: JUNE 24, 2018
+ 
+void setup()
+{
+   //INITIALIZE IO PINS	
+   digitalSetup(14, OUTPUT);
+   digitalWrite(14, LOW);
+  
+}
+
+void loop()
+{
+   //PROGRAM LOGISTICS	
+   delay(1000);
+   digitalToggle(14);
+}
