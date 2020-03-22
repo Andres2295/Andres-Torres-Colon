@@ -85,7 +85,7 @@ p {
 ```
 
     CSS elements can also be combined as displayed in the example below:
-    
+
 > Example - note that `p` is refering to an **element** `.value` is refering to an element `class="value"` property value.
 > This specify wich HTML element will be affected by the class.
 ```css
@@ -96,9 +96,10 @@ p.value {
 ```
 
     HTML documents can also refer to more than one document.
+    
 > Example
 ```html
-<p class="center large">Refering tro classes.</p>
+<p class="center large">Refering to classes.</p>
 ```
 
 [back](./codes_page.html)
