@@ -44,6 +44,6 @@ HTML can be written in any text editor such as Notes, Notepad, Sublime Text, VS 
 
 * Example
 
-![Example](https://github.com/Andres2295/Andres-Torres-Colon/blob/master/assets/images/save_example.png)
+![Example](./assets/images/save_example.png)
 
 [back](./codes_page.html)

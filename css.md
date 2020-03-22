@@ -43,8 +43,17 @@ Selectors can be devided into five categories:
   - Pseudo-elements selectors (select and style part of an element)
   - Attribute selectors (select elements based on an attribute value)
 
-* Example
+## Selector examples
 
-![Example](https://github.com/Andres2295/Andres-Torres-Colon/blob/master/Code%20Examples/html_css_js/images/save_example.png)
+### Simple selectors
+
+The element selector selects HTML elements by the element `tag` name
+> Example
+```css
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+```
 
 [back](./codes_page.html)
