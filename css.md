@@ -46,6 +46,7 @@ Selectors can be devided into five categories:
 ## Selector examples
 
 ### Simple selectors
+  - #### Element selectors
 
 The element selector selects HTML elements by the element `tag` name
 > Example
