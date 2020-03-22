@@ -94,4 +94,10 @@ p.value {
 }
 ```
 
+    HTML documents can also refer to more than one document.
+> Example
+```html
+<p class="center large">Refering tro classes.</p>
+```
+
 [back](./codes_page.html)
