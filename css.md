@@ -29,7 +29,6 @@ p {
 ```
 
 CSS can be written in any text editor such as Notes, Notepad, Sublime Text, VS Code, ect. And it also must be saved with the file extension of `.css`
-
 > In the example above the `body`, `h1` and `p` sections are called **selectors** and inside the **curly braces** `{}` must lie the **declaration** of the style properties for these **selectors**.
 
 ## CSS Selectors
