@@ -12,7 +12,8 @@ layout: default
 
 ## Basic CSS Structure
 
-- > Syntax example
+> Syntax example
+
 ```css
 body {
   background-color: lightblue;
