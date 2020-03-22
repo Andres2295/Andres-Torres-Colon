@@ -5,12 +5,15 @@ layout: default
 [back](./codes_page.html)
 
 # CSS
+
 ## What is CSS?
+
 **CSS** stands for **C**ascading **S**tyle **S**heets. It also describes the style of an **HTML** document.
 
 ## Basic CSS Structure
 
 > Syntax example
+
 ```css
 body {
   background-color: lightblue;
@@ -44,10 +47,13 @@ Selectors can be devided into five categories:
 ## Selector examples
 
 ### Simple selectors
+
   - #### Element selectors
+
     The element selector selects HTML elements by the element `tag` name
-    
+
 > Example
+
 ```css
 p {
   font-family: verdana;
