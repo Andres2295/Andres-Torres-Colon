@@ -9,8 +9,7 @@ layout: default
 **CSS** stands for **C**ascading **S**tyle **S**heets. It also describes the style of an **HTML** document.
 
 ## Basic CSS Structure
-
-> Syntax Example
+> Syntax example
 ```css
 body {
   background-color: lightblue;
