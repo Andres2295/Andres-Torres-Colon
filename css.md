@@ -13,7 +13,6 @@ layout: default
 ## Basic CSS Structure
 
 > Syntax example
-
 ```css
 body {
   background-color: lightblue;
@@ -53,7 +52,6 @@ Selectors can be devided into five categories:
     The element selector selects HTML elements by the element `tag` name
 
 > Example
-
 ```css
 p {
   font-family: verdana;
