@@ -84,6 +84,8 @@ p {
 }
 ```
 
+  - #### Combined selectors
+
     CSS elements can also be combined as displayed in the example below:
 
 > Example - note that `p` is refering to an **element** `.value` is refering to an element `class="value"` property value.
@@ -94,6 +96,8 @@ p.value {
   font-size: 20px;
 }
 ```
+
+  - #### CSS multiple classes in HTML
 
     HTML documents can also refer to more than one document.
     
