@@ -9,6 +9,7 @@ layout: default
 **CSS** stands for **C**ascading **S**tyle **S**heets. It also describes the style of an **HTML** document.
 
 ## Basic CSS Structure
+
 > Syntax example
 ```css
 body {
@@ -45,6 +46,7 @@ Selectors can be devided into five categories:
 ### Simple selectors
   - #### Element selectors
     The element selector selects HTML elements by the element `tag` name
+    
 > Example
 ```css
 p {
