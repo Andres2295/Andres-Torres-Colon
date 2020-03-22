@@ -95,11 +95,4 @@ p.value {
 }
 ```
 
-    HTML documents can also refer to more than one document.
-    
-> Example
-```html
-<p class="center large">Refering to classes.</p>
-```
-
 [back](./codes_page.html)
