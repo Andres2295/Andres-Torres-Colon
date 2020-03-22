@@ -50,11 +50,44 @@ Selectors can be devided into five categories:
 
   - #### Element selectors
 
-    The element selector selects HTML elements by the element `tag` name
+    The element selector selects HTML elements by the element `tag` name.
 
 > Example
 ```css
 p {
+  font-family: verdana;
+  font-size: 20px;
+}
+```
+
+  - #### Id selectors
+
+    The id selector selects HTML elements by the element `id="value"` property value.
+
+> Example
+```css
+#value {
+  font-family: verdana;
+  font-size: 20px;
+}
+```
+
+  - #### Class selectors
+
+    The id selector selects HTML elements by the element `class="value"` property value.
+
+> Example
+```css
+.value {
+  font-family: verdana;
+  font-size: 20px;
+}
+```
+
+CSS elements can also be combined as displayed in the example below:
+> Example - note that `p` is refering to an **element** `.value` is refering to an element `class="value"` property value.
+```css
+p.value {
   font-family: verdana;
   font-size: 20px;
 }
