@@ -84,8 +84,9 @@ p {
 }
 ```
 
-CSS elements can also be combined as displayed in the example below:
+    CSS elements can also be combined as displayed in the example below:
 > Example - note that `p` is refering to an **element** `.value` is refering to an element `class="value"` property value.
+> This specify wich HTML element will be affected by the class.
 ```css
 p.value {
   font-family: verdana;
