@@ -11,6 +11,6 @@ layout: default
 * [Java](./)
 * [javaScript](./javasript.html)
 * [Phyton](./css.html)
-* [QX7 IDE - Mirochip Development](./)
+* [QX7 IPDE - Mirochip Development](https://github.com/Andres2295/Andres-Torres-Colon/tree/master/Code%20Examples/QX7%20IDPE/QX7_Projects_Tutorials)
 
 [back](./)
