@@ -232,12 +232,14 @@ hr {
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  transition: background 2s ease-in-out;
+  -webkit-transition: background 2s ease-in-out;
 }
 
 .btn:hover {
   background: -webkit-linear-gradient(top, rgb(136, 136, 136), rgb(102, 102, 102) 50%, rgb(102, 102, 102) 50%, rgb(21, 21, 21));
-  transition: background 2s;
-  -webkit-transition: background 2s;
+  transition: background 2s ease-in-out;
+  -webkit-transition: background 2s ease-in-out;
 }
 
 .btn .icon {
