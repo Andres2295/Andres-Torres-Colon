@@ -1,6 +1,8 @@
-# Welcome to my professional Github repository!
-You will find in this repository:
+<h1> Welcome to my professional Github repository! </h1>
+<p>You will find in this repository:</p>
 
-* Copy of my [Resume](./resume_page.html) as an example of basic Computer Scientist resume template.
-* Gallery of [Certifications](./certification_page.html) achieved.
-* Repository of [Code Examples](./codes_page.html) and How-To's.
+<ul>
+  <li>Copy of my <a href="./resume_page.html">Resume</a> as an example of basic Computer Scientist resume template.</li>
+  <li>Gallery of <a href="./certification_page.html">Certifications</a> achieved.</li>
+  <li>Repository of <a href="./codes_page.html">Code Examples</a> and How-To's.</li>
+</ul> 
