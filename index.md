@@ -15,8 +15,8 @@
     <h1>Programming is fun!<h1>
   </div>
 </div>
-<div class="content1">
-  <div class="content1-container">
+<div class="content3">
+  <div class="content3-container">
     
   </div>
 </div>
