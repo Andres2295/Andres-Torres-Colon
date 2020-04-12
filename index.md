@@ -1,5 +1,5 @@
 <div class="content1">
-  <div class="content">
+  <div class="content1-container">
     <h1> Welcome to my professional Github repository! </h1>
     <p>You will find in this repository:</p>
 
