@@ -18,6 +18,8 @@ body {
   margin: 0;
   padding: 0;
   background: $body-background url("../images/Octologic_Screensaver.jpg") 0 0;
+  background-repeat: no-repeat;
+  background-size: auto;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
