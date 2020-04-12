@@ -115,11 +115,15 @@ header h2 {
   width: 100%;
 }
 
+.content {
+  
+}
+
 .content1 {
   background: url("../images/bkg.png") 0 0;
   width: 90%;
   max-width: $container-max-width;
-  margin: 0;
+  margin: 0 auto;
   background-color: #808080;
   padding: 20px;
   border: 1px solid black;
