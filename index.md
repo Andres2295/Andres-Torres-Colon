@@ -17,6 +17,45 @@
 </div>
 <div class="content3">
   <div class="content3-container">
-    
+    <div class="sidebar">
+      <form>
+        <div class="field">
+          <label>Side Length</label>
+          <input type="number" min="10" name="length" class="input">
+        </div>
+        <div class="field">
+          <label>Corner Radius</label>
+          <input type="number" min="0" name="radius" class="input">
+        </div>
+        <div class="field">
+          <label>Color</label>
+          <input type="text" name="color" class="input">
+        </div>
+        <div class="field">
+          <label>Drop Shadow</label>
+          <input type="text" name="shadow" class="input">
+        </div>
+        <div class="field">
+          <label>
+            <input type="radio" value="pointy" name="orientation"> Pointy Top
+          </label>
+          <label>
+            <input type="radio" value="flat" name="orientation"> Flat Top
+          </label>
+        </div>
+        <div class="field">
+          <label>
+            <input type="checkbox" value="dark" name="theme" checked="checked"> Dark Theme
+          </label>
+        </div>
+        <div class="field">
+          <label>Code</label>
+          <textarea class="input" rows="5"></textarea>
+        </div>
+      </form>
+    </div>
+    <div class="container dark">
+      <div class="hex"></div>
+    </div>
   </div>
 </div>
