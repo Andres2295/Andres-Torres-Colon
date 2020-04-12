@@ -19,7 +19,7 @@ body {
   padding: 0;
   background: $body-background url("../images/Octologic_Screensaver.jpg") 0 0;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   background-attachment: fixed;
   color: $body-foreground;
   font-size: 16px;
@@ -35,18 +35,10 @@ body {
   margin: 0 auto;
 }
 
-.content1 {
-  background: url("../images/bkg.png") 0 0;
-  width: 90%;
-  max-width: $container-max-width;
-  margin: 0 auto;
-  border-bottom: 1px dashed $conifer;
-}
-
 .advanced-container {
   width:100%;
   max-width: $container-max-width;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 section {
@@ -130,6 +122,15 @@ header h2 {
   -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
   box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
+
+.content1 {
+  background: url("../images/bkg.png") 0 0;
+  width: 90%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  border-bottom: 1px dashed $conifer;
+}
+
 section img {
   max-width: 100%
 }
