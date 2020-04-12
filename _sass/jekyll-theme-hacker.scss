@@ -116,11 +116,6 @@ header h2 {
 }
 
 .content {
-  
-}
-
-.content1 {
-  background: url("../images/bkg.png") 0 0;
   width: 90%;
   max-width: $container-max-width;
   margin: 0 auto;
@@ -132,6 +127,11 @@ header h2 {
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
   box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.content1 {
+  width: 100%;
+  background: url("../images/bkg.png") 0 0;
 }
 
 section img {
