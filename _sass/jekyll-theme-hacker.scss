@@ -131,8 +131,21 @@ header h2 {
 
 .content1 {
   width: 100%;
-  padding: 40px 0 40px;
+  padding: 40px 0 40px 0;
   background: url("../images/bkg.png") 0 0;
+  border-bottom: 1px dashed $conifer;
+}
+
+.content2-container {
+  width: 90%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content2 {
+  width: 100%;
+  padding: 150px 0 150px 0;
   border-bottom: 1px dashed $conifer;
 }
 
