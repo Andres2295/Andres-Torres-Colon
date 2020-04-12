@@ -19,7 +19,8 @@ body {
   padding: 0;
   background: $body-background url("../images/Octologic_Screensaver.jpg") 0 0;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: auto;
+  background-attachment: fixed;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
@@ -35,6 +36,14 @@ body {
 }
 
 .content1 {
+  background: url("../images/bkg.png") 0 0;
+  width: 90%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  border-bottom: 1px dashed $conifer;
+}
+
+.content2 {
   width: 90%;
   max-width: $container-max-width;
   margin: 0 auto;
