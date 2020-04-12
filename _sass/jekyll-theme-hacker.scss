@@ -17,7 +17,7 @@ $container-max-width: 1000px;
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../images/bkg.png") 0 0;
+  background: $body-background url("../images/Octologic_Screensaver.jpg") 0 0;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
@@ -30,6 +30,19 @@ body {
   width: 90%;
   max-width: $container-max-width;
   margin: 0 auto;
+}
+
+.content1 {
+  width: 90%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  border-bottom: 1px dashed $conifer;
+}
+
+.advanced-container {
+  width:100%;
+  max-width: $container-max-width;
+  margin: 0 auto
 }
 
 section {
@@ -57,7 +70,7 @@ li {
 */
 
 header {
-  background: rgba(0, 0, 0, 0.1);
+  background: url("../images/bkg.png") 0 0;
   width: 100%;
   border-bottom: 1px dashed $conifer; //header;
   padding: 20px 0;
