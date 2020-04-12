@@ -17,45 +17,6 @@
 </div>
 <div class="content3">
   <div class="content3-container">
-    <div class="sidebar">
-      <form>
-        <div class="field">
-          <label>Side Length</label>
-          <input type="number" min="10" name="length" class="input">
-        </div>
-        <div class="field">
-          <label>Corner Radius</label>
-          <input type="number" min="0" name="radius" class="input">
-        </div>
-        <div class="field">
-          <label>Color</label>
-          <input type="text" name="color" class="input">
-        </div>
-        <div class="field">
-          <label>Drop Shadow</label>
-          <input type="text" name="shadow" class="input">
-        </div>
-        <div class="field">
-          <label>
-            <input type="radio" value="pointy" name="orientation"> Pointy Top
-          </label>
-          <label>
-            <input type="radio" value="flat" name="orientation"> Flat Top
-          </label>
-        </div>
-        <div class="field">
-          <label>
-            <input type="checkbox" value="dark" name="theme" checked="checked"> Dark Theme
-          </label>
-        </div>
-        <div class="field">
-          <label>Code</label>
-          <textarea class="input" rows="5"></textarea>
-        </div>
-      </form>
-    </div>
-    <div class="container dark">
-      <div class="hex"></div>
-    </div>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="174" height="200" viewbox="0 0 173.20508075688772 200" style="filter: drop-shadow(rgba(255, 255, 255, 0.5) 0px 0px 10px);"><path fill="#fff" d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"></path></svg>
   </div>
 </div>
